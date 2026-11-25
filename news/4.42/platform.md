@@ -50,6 +50,26 @@ and may be removed again in any future release once the generalized behavior has
 See [the related news](platform_isv.md#findreplace-overlay-available-in-any-part-adapting-to-itextviewer)
 for how other views can offer the overlay.
 
+### Find/Replace Overlay UX Improvements
+<!--
+https://github.com/eclipse-platform/eclipse.platform.ui/pull/4293
+https://github.com/eclipse-platform/eclipse.platform.ui/pull/4339
+https://github.com/eclipse-platform/eclipse.platform.ui/pull/4355
+https://github.com/eclipse-platform/eclipse.platform.ui/pull/4524
+-->
+<details>
+<summary>Contributors</summary>
+
+- [Heiko Klare](https://github.com/HeikoKlare)
+</details>
+
+The find/replace overlay received several UX improvements.
+When the overlay is focused, the keys you press no longer modify the document behind it,
+and the overlay looks the same in every editor and theme.
+For example, its input fields no longer stand out in the dark theme (before on top, after below):
+
+![Overlay with a lighter input field and white tool bars on top, and a uniformly dark overlay below](images/findreplace-overlay-dark-theme.png)
+
 ### Filtered Trees Keep Your Selection
 <!-- https://github.com/eclipse-platform/eclipse.platform.ui/pull/4490 -->
 <details>
